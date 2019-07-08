@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">supernest</string>
+    <string name="app_name">NEST</string>
+
+    <string name="borrow">Loan</string>
+
+    <string name="nest">NEST</string>
+    <string name="eth">ETH</string>
+    <string name="my_contract">我的合约</string>
+    <string name="launcher_info">去中心化数字资产抵押借贷 DApp</string>
+
+
+
 </resources>
