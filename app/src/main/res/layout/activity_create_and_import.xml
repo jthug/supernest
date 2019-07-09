@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/c0">
+
+    <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:title="导入/创建钱包"
+            app:titleMarginStart="@dimen/dp_160"
+            app:titleTextColor="@color/c8"
+            android:background="@color/c1"
+    />
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <ImageView
+                android:id="@+id/iv_introduce"
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="@dimen/dp_60"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_nest_white"
+                android:layout_centerInParent="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEST,去中心化数字资产抵押借贷平台"
+                android:textColor="@color/c8"
+                android:textSize="@dimen/sp_14"
+                android:layout_below="@id/iv_introduce"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/dp_40"/>
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <Button
+                android:id="@+id/btn_import"
+                style="@style/public_btn_style"
+                android:text="导入钱包"/>
+        <Button
+                android:id="@+id/btn_create"
+                style="@style/public_btn_style"
+                android:layout_marginTop="@dimen/dp_40"
+                android:text="创建钱包"/>
+    </LinearLayout>
+</LinearLayout>

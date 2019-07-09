@@ -3,6 +3,10 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowDisablePreview">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
 
@@ -231,5 +235,14 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
+
+    <style name="public_btn_style">
+        <item name="android:layout_width">@dimen/dp_280</item>
+        <item name="android:layout_height">@dimen/dp_40</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/gradient_oval_btn</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
 
 </resources>
