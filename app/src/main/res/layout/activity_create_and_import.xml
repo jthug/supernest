@@ -8,10 +8,11 @@
         android:background="@color/c0">
 
     <android.support.v7.widget.Toolbar
+            android:id="@+id/toobar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
             app:title="导入/创建钱包"
-            app:titleMarginStart="@dimen/dp_160"
+            app:titleMarginStart="@dimen/dp_140"
             app:titleTextColor="@color/c8"
             android:background="@color/c1"
     />

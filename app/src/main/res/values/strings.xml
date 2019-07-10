@@ -1,12 +1,19 @@
 <resources>
-    <string name="app_name">NEST</string>
+    <string name="app_name">SuperNest</string>
 
     <string name="borrow">Loan</string>
 
     <string name="nest">NEST</string>
-    <string name="eth">ETH</string>
     <string name="my_contract">我的合约</string>
     <string name="launcher_info">去中心化数字资产抵押借贷 DApp</string>
 
+    <string name="create_wallet">创建钱包</string>
+    <string name="create_wallet_warn_1">* 钱包密码用于保护您的私钥和身份验证</string>
+    <string name="create_wallet_warn_2">* NEST不存储任何密码，也无法帮您找回，请妥善保管</string>
+    <string name="set_password">请设置8~32位密码</string>
+    <string name="reinput_psd">请重复密码</string>
+    <string name="agreement_1">我已阅读并同意</string>
+    <string name="agreement_2">《用户服务协议及隐私条款》</string>
+    <string name="agreement_3">《风险提示和用户协议》</string>
 
 </resources>

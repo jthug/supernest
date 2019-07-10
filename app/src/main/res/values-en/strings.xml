@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SuperNest</string>
+
+    <string name="borrow">Loan</string>
+
+    <string name="nest">NEST</string>
+    <string name="my_contract">My contract</string>
+    <string name="launcher_info">Decentralized digital asset mortgage lending DApp</string>
+
+    <string name="create_wallet">Create wallet</string>
+    <string name="create_wallet_warn_1">* The password can protect your private key and prove \n\t your identity</string>
+    <string name="create_wallet_warn_2">* Nest do not store any passwords, nor can we retrieve \n\t  them for you.Keep your password safe</string>
+    <string name="set_password">Set the 8~32 password</string>
+    <string name="reinput_psd">Re-enter password</string>
+    <string name="agreement_1">I have agreed</string>
+    <string name="agreement_2">《The User Service and Privacy Policy》</string>
+    <string name="agreement_3">《Monetary Tips and User Agreements》</string>
+
+</resources>
+
